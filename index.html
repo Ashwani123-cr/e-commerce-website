@@ -1,52 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      LOKI
-    </title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="main">
-      <img src="https://wallpapercave.com/wp/wp12978997.jpg" alt="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Poster Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #181717;
+            color: #333;
+            
+        }
+        header {
+            background-color: #0e0d0d;
+            color: #17af0a;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        body video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .poster {
+            display: flex;
+            align-items: center;
+            background: #faf9f9;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            
+        }
+        .poster img {
+            max-width: 150px;
+            height: auto;
+            border-right: 1px solid #ddd;
+        }
+        .poster-info {
+            padding: 1rem;
+            flex: 1;
+        }
+        .poster-info h2 {
+            margin: 0 0 0.5rem;
+            font-size: 1.25rem;
+        }
+        .poster-info p {
+            margin: 0 0 1rem;
+            color: #666;
+            
+        }
+        .poster-info .price {
+            font-size: 1.2rem;
+            color: #000;
+            margin-bottom: 1rem;
+        }
+        .poster-info .buy-btn {
+            display: inline-block;
+            background: #28a745;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        .poster-info .buy-btn:hover {
+            background: #218838;
+        
+        
+
+            
+        }
+        
     
-      <div id="card1" class="card">
-        <img
-          src="https://images.hdqwalls.com/wallpapers/bthumb/loki-ending-scene-2023-fp.jpg"
-        />
-      </div>
-      <div id="card2" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp13602847.jpg"
-        />
-      </div>
-      <div id="card3" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp13602837.jpg"
-        />
-      </div>
-      <div id="card4" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp2813414.jpg"
-        />
-      </div>
-      <div id="card5" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp8753593.jpg"
-        />
-      </div>
-      <div id="card6" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp12876099.jpg"
-        />
-      </div>
-      <div id="card7" class="card">
-        <img
-          src="https://wallpapercave.com/wp/wp12698368.jpg"
-        />
-      </div>
-    </div>
-  </body>
+        
+    </style>
+</head>
+<body>
+    <video autoplay loop src="hello.mp4"></video>
+    
+    <header>
+        <h1>WELCOME TO THE COLLECTIONS OF FANDOM POSTERS</h1>
+        
+    </header>
+    <main>
+        
+        <div class="poster">
+            <img src="https://static.wixstatic.com/media/3d343e_5eb4b851b5a446eb804201afbc64b28b~mv2.jpg" alt="Poster 1">
+            <div class="poster-info">
+                <h2>LIMITED EDITION "ALICE IN BOARDER LAND POSTER</h2>
+                <p>This has a unique shifing feature of card</p>
+                <p class="price">$15</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="poster">
+            <img src="https://static.wixstatic.com/media/3d343e_0175480a9acc45cda58c6835cf65e56a~mv2.jpeg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>POSTER FROM THE WORLD OF TIME GOD "THE LOKI"</h2>
+                <p>It has a glossy finish</p>
+                <p class="price">$20</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="https://ih1.redbubble.net/image.2859174243.3117/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>POSTER FROM THE WORLD OF FUN ANSD DEATH "THE SQUID GAME"</h2>
+                <p>The showcase of the pink soilder.</p>
+                <p class="price">$15</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="https://wallpapercave.com/wp/wp6892093.jpg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>POSTER FROM BREAKING BAD</h2>
+                <p>This poster Giving the glimpse brbd</p>
+                <p class="price">$16</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="https://www.lafayettestudentnews.com/wp-content/uploads/2019/08/strangerthings_s3.jpg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>POSTER OF THRILL FROM "THE STRANGER THINGS" </h2>
+                <p>This poster Deep detailing on every character with glossyness </p>
+                <p class="price">$18</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/44b1f7112400753.601392a69569d.jpg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>COMBINING THE STERNGTH OF ALL CHARCTERS FROM "ALICE IN BOARDER LAND"</h2>
+                <p>This poster has the showcase of all fav.characters</p>
+                <p class="price">$20</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="https://i.pinimg.com/736x/8c/fd/9d/8cfd9d2b9809af514ecaf1d89545d728.jpg" alt="Poster 2">
+            <div class="poster-info">
+                <h2>GOD LOKI</h2>
+                <p>This poster show Multiverse king</p>
+                <p class="price">$15</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+       
+    </main>
+</body>
 </html>
